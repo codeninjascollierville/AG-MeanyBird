@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[Header("Default Speed")]
-public float speed;
-
 public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    [Header("Default Speed")]
+    public float speed;
 
-    }
+    // Start is called before the first frame update
 
     // Update is called once per frame
     void Update()
     {
-
+        transform.position += Vector3.left * speed * Time.deltaTime;
     }
 }
