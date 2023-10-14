@@ -3,7 +3,12 @@ guid: 7952644d1abcf2b43b5cbf364f169992
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gameOverCanvas: {fileID: 5669031248249767612, guid: 1fbc2b56f4b4cad41b29960ac8b40776,
+      type: 3}
+  - scoreCanvas: {fileID: 4420568018785244674, guid: dc49c544ac07fab4799df520a69aa565,
+      type: 3}
+  - spawner: {instanceID: 0}
   executionOrder: 0
   icon: {fileID: 2800000, guid: 0980736648babc64492f8d6eb0a59980, type: 3}
   userData: 
